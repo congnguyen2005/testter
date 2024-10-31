@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_fpoly"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_border" /> <!-- Apply border -->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom_border"
+        android:text="Ứng dụng quản lý sản phẩm"
+        android:textSize="20sp"
+        android:textStyle="bold" /> <!-- Apply border -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/custom_border"
+        android:text="Giảng viên: Nguyễn Văn Nam"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sinh viên: Đặng công nguyên"
+        android:layout_marginTop="75dp"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom_border"/> <!-- Apply border -->
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSSV: PD10143"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom_border"/> <!-- Apply border -->
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp: MD19301"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/custom_border"/> <!-- Apply border -->
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Môn học: Lập trình Android 2 (AND102)"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@drawable/custom_border"/> <!-- Apply border -->
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phiên bản: nav1.0"
+        android:layout_marginTop="140dp"
+        android:layout_below="@id/tv5"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:background="@drawable/custom_border"/> <!-- Apply border -->
+</RelativeLayout>
